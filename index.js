@@ -93,4 +93,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(80);
+server.listen(8080, '52.58.75.101', () => {
+  console.log('Listening to requests on port 8000');
+});
